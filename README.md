@@ -42,7 +42,24 @@ WeatherPro is a modern, responsive weather dashboard built with React and Vite. 
 ## 🌐 Live Demo
 > Add live demo link here (if deployed)
 
-## 🙌 Connect
+## � Deploy to Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/aditya1122git/weather-dashboard)
+
+### Manual Deployment:
+1. **Fork this repository**
+2. **Connect to Vercel**:
+   - Go to [vercel.com](https://vercel.com)
+   - Sign in with GitHub
+   - Click "New Project"
+   - Import your forked repository
+3. **Deploy**: Vercel will automatically build and deploy your app
+4. **Custom Domain** (Optional): Add your custom domain in Vercel settings
+
+### Environment Variables (Optional):
+- `VITE_OPENWEATHER_API_KEY`: Your OpenWeatherMap API key
+- Copy `.env.example` to `.env` and add your values
+
+## �🙌 Connect
 - [GitHub](https://github.com/aditya1122git)
 - [LinkedIn](https://linkedin.com/in/aditya-raj-07a7a02a7)
 
