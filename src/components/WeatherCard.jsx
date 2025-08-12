@@ -96,7 +96,7 @@ const WeatherCard = ({ weather }) => {
         
         <div className="weather-detail hover-scale">
           <div className="weather-detail-icon">
-            <i className="fas fa-sunrise"></i>
+            <i className="fa-solid fa-sun"></i>
           </div>
           <div className="weather-detail-label">Sunrise</div>
           <div className="weather-detail-value">{formatTime(weather.sys.sunrise)}</div>
@@ -104,7 +104,7 @@ const WeatherCard = ({ weather }) => {
         
         <div className="weather-detail hover-scale">
           <div className="weather-detail-icon">
-            <i className="fas fa-sunset"></i>
+            <i className="fa-regular fa-sun"></i>
           </div>
           <div className="weather-detail-label">Sunset</div>
           <div className="weather-detail-value">{formatTime(weather.sys.sunset)}</div>
